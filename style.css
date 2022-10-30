@@ -1,0 +1,89 @@
+.gameContainer{
+    background-color: black;
+}
+
+.board{
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("./images/board.jpg") no-repeat;
+}
+
+#messageArea{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 200%;
+}
+
+table{
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0;
+}
+
+td{
+    width: 94px;
+    height: 94px;
+}
+
+form{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+    background-color: #79B4B7;
+}
+
+form input{
+    background-color: #D4ECDD;
+    font-size: 100%;
+}
+
+.hit{
+    background: url(./images/ship.png) no-repeat center center;
+}
+
+.miss{
+    background: url(./images/miss.png) no-repeat center center;
+}
+
+.container{
+    margin: 0 20%;
+
+}
+
+h1{
+    color: #345B63;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h2{
+    color: #00A19D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.howTo{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+a{
+    color: #00A19D;
+    font-size: 200%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FFB830  ;
+}
